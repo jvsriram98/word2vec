@@ -61,7 +61,7 @@ model = Word2Vec(sentences, min_count=1)
 words = model.wv.vocab
 
 # Finding Word Vectors
-vector = model.wv['war']
+vector = model.wv['world']
 
 # Most similar words
-similar = model.wv.most_similar('vikram')
+similar = model.wv.most_similar('india')
